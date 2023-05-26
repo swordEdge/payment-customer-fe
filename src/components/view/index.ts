@@ -1,0 +1,12 @@
+export * as LandingViews from './Landing';
+export * as AccountViews from './Accounts';
+export * as AccountDetailViews from './AccountDetail';
+export * as CardViews from './Cards';
+export * as ProfileViews from './Profile';
+export * as PasswordResetViews from './PasswordReset';
+export * as LoginViews from './Login';
+export * as RegisterViews from './Register';
+export * as TransferViews from './Transfer';
+export * as ServiceViews from './Services';
+export * as VeriffViews from './Veriff';
+export * as BusinessVeriffViews from './BusinessVeriff';

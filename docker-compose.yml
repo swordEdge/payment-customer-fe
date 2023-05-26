@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  emi-saas-saas-user-frontend:
+    container_name: emi-saas-saas-user-frontend
+    ports:
+      - 3002:3002
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /app/logs:/usr/app/logs
+

@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "preserve",
+		"baseUrl": "src"
+	},
+	"include": ["src/**/*.ts", "src/containers/Veriff/Session/index.tsx", "src/components/view/Veriff/index.tsx", "src/components/view/index.tsx", "src/components/view/index.tsx", "src/pages/Veriff/Session/index.tsx", "src/pages/Veriff/index.tsx", "src/containers/Profile/BusinessProfile/index.tsx", "src/components/view/Profile/BusinessProfile/UploadDocuments/index.tsx"],
+	"exclude": ["node_modules", ".vscode"]
+}
